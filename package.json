@@ -1,0 +1,29 @@
+{
+  "name": "spotify-api-test",
+  "version": "1.0.0",
+  "description": "Playing with the spotify api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Visser",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "html": "^1.0.0",
+    "querystring": "^0.2.1"
+  },
+  "pkg": {
+    "assets": [
+        "views/logged.html",
+        "views/web.html",
+        "public/css/style.css",
+        "public/images/next.png",
+        "public/images/pause.png",
+        "public/images/play.png",
+        "public/js/java.js"
+      ]
+  }
+}

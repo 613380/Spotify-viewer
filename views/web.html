@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/java.js" type="module"></script>
+<html>
+    <head>
+        <title>Spotify Playback Viewer</title>
+        
+    </head>
+    <body id="body">
+        <img src="#" id="albumCover" class = "albumCover">
+        <div id = "titlediv" class = "titlediv">
+           <h1 id="trackName" class = "title">------</h1> 
+        </div>
+        <h3 id="artist" class = "artist">------</h3>
+    </body>
+    <button id = "forward" class = skipButton>
+        <img src="images/next.png" id = "skipForward" class = "skipright">
+    </button>
+
+    <button id = "backward" class = skipLeftButton>
+        <img src="images/next.png" id = "skipBackward" class = "skipleft">
+    </button>
+
+    <button id = "pauseButton" class = "pauseButton">
+        <img src="images/pause.png" id="pause" class = "pause">
+    </button>
+
+    <div id="playback" class = "progressBar">
+        <div class="progress" id="progress" style="width:100px"></div>
+    </div>
+</html>
